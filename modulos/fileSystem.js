@@ -18,6 +18,6 @@ const borrar = (ruta, cb) => {
   fs.unlink(ruta, cb);
 };
 
-// leer(__dirname + "/archivo.txt", console.log);
+leer(__dirname + "/archivo.txt", console.log);
 // escribir(__dirname + "/archivo1.txt", "Soy un archivo nuevo", console.log);
-borrar(__dirname + "/archivo1.txt", console.log);
+// borrar(__dirname + "/archivo1.txt", console.log);
